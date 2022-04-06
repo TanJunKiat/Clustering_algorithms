@@ -4,12 +4,12 @@ CONTENTS OF THIS FILE
 ---------------------
 1. KmeansClustering.m
 2. Examples
-   - 1. Centre spread.png
-   - 2. Two clusters (1 to 1 ratio).png
-   - 3. Two clusters (1 to 2 ratio).png
-   - 4. Two clusters (1 to 4 ratio).png
-   - 5. Four clusters (1 to 1 ratio).png
-   - 6. Snake cluster with noise.png
+   - Centre spread.png
+   - Two clusters (1 to 1 ratio).png
+   - Two clusters (1 to 2 ratio).png
+   - Two clusters (1 to 4 ratio).png
+   - Four clusters (1 to 1 ratio).png
+   - Snake cluster with noise.png
 
 Introduction
 ---------------------
