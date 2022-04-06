@@ -2,7 +2,7 @@
 
 CONTENTS OF THIS FILE
 ---------------------
-1. Hopfield_learning.m
+1. KmeansClustering.m
 2. Training data (Number 0 to 9)
    - 0.png
    - 1.png
@@ -44,7 +44,7 @@ Installation
 
 Usage
 ---------------------
-1. Launch "Hopfield_learning.m" using MATLAB
+1. Launch "KmeansClustering.m" using MATLAB
 2. Click "Run"
 
 Additional Information
