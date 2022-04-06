@@ -3,7 +3,7 @@
 CONTENTS OF THIS FILE
 ---------------------
 1. KmeansClustering.m
-2. Examples/
+2. Examples
    - 1. Centre spread.png
    - 2. Two clusters (1 to 1 ratio).png
    - 3. Two clusters (1 to 2 ratio).png
