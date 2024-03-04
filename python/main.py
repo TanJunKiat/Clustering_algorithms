@@ -1,25 +1,6 @@
 import numpy as np
 from PIL import Image
-
-def kmeans(X, n_clusters):
-    # Initialize cluster centers randomly
-    centers = X[np.random.choice(range(len(X)), n_clusters, replace=False)]
-
-    # Iterate until convergence
-    while True:
-        # Assign each data point to the nearest cluster center
-        labels = np.argmin(np.linalg.norm(X[:, np.newaxis] - centers, axis=-1), axis=-1)
-
-        # Update cluster centers
-        new_centers = np.array([X[labels == i].mean(axis=0) for i in range(n_clusters)])
-
-        # Check for convergence
-        if np.all(centers == new_centers):
-            break
-
-        centers = new_centers
-
-    return labels, centers
+from include.k_mean_clustering import kmeans
 
 # Load the image
 image = Image.open("python/examples/example_3.png")
@@ -41,6 +22,7 @@ print("Cluster Labels:")
 print(labels)
 print("\nCluster Centers:")
 print(centers)
+
 import matplotlib.pyplot as plt
 
 # Plot the data points with different colors for each cluster
