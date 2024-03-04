@@ -10,6 +10,9 @@ image = Image.open("python/examples/example_2.png")
 # Find the coordinates of black pixels as make them the data points
 data = np.argwhere(np.all(np.array(image) == [0, 0, 0], axis=-1))
 
+# Normalise the data
+data = data / np.max(data)
+
 # Create a KMeans object with the desired number of clusters
 n_clusters = 2
 
